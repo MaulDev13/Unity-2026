@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afd8429079af7f940b95fe0d00a85dad, type: 3}
+  m_Name: Unit A
+  m_EditorClassIdentifier: 
+  unitName: Unit A
+  startingStatusEffects: []
+  statusEffects:
+  - {fileID: 11400000, guid: 7e17fa1b64ce39d4db85c5acf29afe64, type: 2}
+  maxHealth: 100
+  moveSpeed: 20
+  rotationSpeed: 0
+  randomMovement: 1
+  directionChangeInterval: 0
+  attackDamage: 10
+  attackRange: 2
+  attackRate: 1
+  defense: 0
+  visionRange: 10
